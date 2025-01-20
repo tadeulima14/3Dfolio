@@ -148,11 +148,14 @@ nav a.active {
   
   .close-btn {
 	position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 5px;
+	right: 40px;
 	color: white;
 	font-size: 30px;
 	cursor: pointer;
+	background: transparent; /* Remove background */
+	border: none;            /* Remove border */
+	outline: none;           /* Remove focus outline */
   }
   
   .prev, .next {
